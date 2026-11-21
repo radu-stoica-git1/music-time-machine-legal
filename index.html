@@ -40,7 +40,7 @@
 <body>
 <main>
 <h1>Privacy Policy — Music Time Machine</h1>
-<p class="updated"><strong>Last updated: 11 October 2026</strong></p>
+<p class="updated"><strong>Last updated: 21 November 2026</strong></p>
 <p>This policy explains what information the Android app <strong>Music Time Machine</strong> ("the app") handles, why, and what choices you have.</p>
 <p>The app is published by <strong>ERISTO MARKETING BOUTIQUE SRL</strong>, <strong>Spl. Independenței nr. 313b, Corp C3, Parter, Ap. 6, Sector 6, 060042 București, Romania</strong> ("we", "us"). For questions about this policy or your data, contact us at <strong>eristoapp@gmail.com</strong>.</p>
 <hr>
@@ -48,7 +48,7 @@
 <div class="lead">
 <p>The app has no accounts, no login, and no server of our own. What you do in the app — which stops you have heard, which narrator voice you picked — is stored only on your device.</p>
 <p>Three Google services inside the app do process data: <strong>AdMob</strong> to show ads, <strong>Google Analytics for Firebase</strong> to tell us how the app is used, and <strong>Firebase Crashlytics</strong> to report crashes. In the European Economic Area, the United Kingdom and Switzerland, <strong>all three stay switched off until you agree</strong> — one consent choice governs all of them, and you can change it at any time in Settings.</p>
-<p>The music itself is never played by the app: you listen on YouTube or Spotify, in their own apps. The stories are read aloud by your phone's own text-to-speech voice.</p>
+<p>The music itself is never played by the app: you listen on YouTube or Spotify, in their own apps. The stories are read aloud by a narrator recorded for the app — a computer-generated voice whose recordings are part of the app itself — or, if you prefer, by your phone's own text-to-speech voice.</p>
 <p>We never see who you are. We see counts and averages.</p>
 </div>
 <h2>1. What the app stores on your device</h2>
@@ -56,12 +56,14 @@
 <ul>
 <li>whether you have seen the three introduction screens;</li>
 <li>which stops you have heard to the end (the small blue tick in the app);</li>
-<li>which narrator voice you chose in *Settings → Story voice*, if you chose one.</li>
+<li>which stop you heard most recently, so the Journey can suggest where to pick up;</li>
+<li>who reads the stories, and which voice, if you changed it in *Settings → Story voice*.</li>
 </ul>
 <p>Technically this lives in the app's local storage under a single key, <code>mtm.state.v1</code>. It is deleted when you uninstall the app or clear the app's data from Android Settings, and *Settings → Reset explored stops* clears the ticks on their own.</p>
 <p><strong>The app has no user accounts.</strong> We never ask for and never receive your name, e-mail address, phone number, contacts, photos or files. The app does not use your location, camera or microphone.</p>
 <h3>The narrator voice</h3>
-<p>The stories are read aloud by the text-to-speech engine already on your device (on most phones, Google's *Speech Services*). The app hands the story's text to that engine; it does not record or upload anything. By default the app chooses a voice that lives on the phone, so the text stays there. If you pick a voice that the app marks <strong>"Needs internet"</strong>, the text of the story is sent to that voice's provider (Google) to be synthesised, under Google's own privacy policy.</p>
+<p>By default the stories are read by a narrator recorded for the app. It is a computer-generated voice: we produced the recordings on our own computer and they are included in the app. Playing them uses nothing but the files already on your device and sends nothing anywhere. The app never records anything and does not use the microphone.</p>
+<p>In *Settings → Story voice* you can choose one of your phone's own voices instead. The stories are then read by the text-to-speech engine already on your device (on most phones, Google's *Speech Services*): the app hands the story's text to that engine and uploads nothing itself. The voice the app picks for you lives on the phone, so the text stays there. If you pick a voice that the app marks <strong>"Needs internet"</strong>, the text of the story is sent to that voice's provider (Google) to be synthesised, under Google's own privacy policy.</p>
 <h2>1b. Usage statistics and crash reports</h2>
 <p>To understand how the app is used and to find bugs, the app uses <strong>Google Analytics for Firebase</strong> and <strong>Firebase Crashlytics</strong> (Google Ireland Limited for users in the EEA, UK and Switzerland).</p>
 <p><strong>In the EEA, the UK and Switzerland these are switched off by default</strong> and only start after you agree — the same consent choice that governs ads. If you decline, nothing below is collected.</p>
